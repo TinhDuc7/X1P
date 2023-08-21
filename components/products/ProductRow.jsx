@@ -7,17 +7,19 @@ import useFetch from '../../hook/useFetch';
 
 const ProductRow = () => {
   // const url = "http://localhost:6060/api/products/"
-  const url = process.env.PRODUCTS_API;
-  // const {data, isLoading, error} = useFetch('http://localhost:6060/api/products/')
-  const {data, isLoading, error} = useFetch(url)
-  // const products = [1, 2, 3, 4];
+  // const url = process.env.PRODUCTS_API;
+  const {data, isLoading, error} = useFetch()
+  // const { data, isLoading, error } = useFetch(url)
+  // console.log('data 1 ',data);
+  // console.log('error 1 ',error);
+
   return (
     <View style={styles.Container}>
       {isLoading ? (
         <ActivityIndicator size={SIZES.xxLarge} color={COLORS.primary} />
       ) : error ? (
       <Text>Something went wrong</Text>
-      ): (
+      ) : (
                 <FlatList
                 data={data}
                 keyExtractor={(item) => item._id}

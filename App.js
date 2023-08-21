@@ -1,10 +1,8 @@
 import React from 'react';
-import { View, Text } from 'react-native';
-// import {BottomTabBar} from '@react-navigation/bottom-tabs';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import BottomTabNavigation from './navigation/BottomTabNavigation';
-import {Cart, ProductDetails} from './screens/index';
+import {Cart, ProductDetails, NewRivals} from './screens/index';
 
 const Stack = createNativeStackNavigator();
 
@@ -25,6 +23,11 @@ const App = () => {
         <Stack.Screen
           name='ProductDetails'
           component={ProductDetails}
+          options={{headerShown: false}}
+        />
+        <Stack.Screen
+          name='ProductList'
+          component={NewRivals}
           options={{headerShown: false}}
         />
       </Stack.Navigator>
