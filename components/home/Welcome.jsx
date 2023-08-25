@@ -31,6 +31,7 @@ const Welcome = () => {
             value=''
             onPressIn={()=>navigation.navigate('Search')}
             placeholder='What are you looking for'
+            placeholderTextColor='black'
           />
         </View>
       <View>

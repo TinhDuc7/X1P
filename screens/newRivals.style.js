@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
         position: 'absolute',
         backgroundColor: COLORS.primary,
         borderRadius: SIZES.large,
-        top: SIZES.large,
+        top: SIZES.small,
         zIndex: 999,
     },
     heading: {

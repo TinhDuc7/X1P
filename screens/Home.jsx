@@ -4,10 +4,9 @@ import {SafeAreaView} from 'react-native-safe-area-context';
 import styles from './home.style';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import AntDesign from 'react-native-vector-icons/AntDesign';
-import {Welcome} from '../components/index';
+import {Welcome,ProductRow} from '../components/index';
 import Carousel from '../components/home/Carousel';
 import Headings from '../components/home/Headings';
-import ProductRow from '../components/products/ProductRow';
 
 const Home = () => {
   return (

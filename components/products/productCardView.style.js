@@ -3,7 +3,7 @@ import { COLORS, SIZES } from "../../constants";
 
 const styles = StyleSheet.create({
     container: {
-        width: 182,
+        width: 170,
         height: 240,
         marginRight: 6,
         borderRadius: SIZES.medium,
@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
     },
     imageContainer: {
         // backgroundColor: COLORS.gray2,
-        width: 170,
+        width: 156,
         flex: 1,
         // marginLeft: SIZES.small /2,
         // marginTop: SIZES.small / 2,
@@ -39,13 +39,13 @@ const styles = StyleSheet.create({
     },
     price: {
         fontFamily: 'Poppins-Bold',
-        fontSize: SIZES.medium,
+        fontSize: SIZES.small,
         color: COLORS.tertiary
     },
     addBtn: {
         position: 'absolute',
-        bottom: SIZES.xSmall,
-        right: SIZES.xSmall
+        bottom: SIZES.xSmall -5,
+        right: SIZES.xSmall -5
     }
 }); 
 

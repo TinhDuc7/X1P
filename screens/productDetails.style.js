@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
   titleRow: {
     marginHorizontal: SIZES.large,
     paddingBottom: SIZES.small,
-    flexDirection: 'row',
+    // flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
     width: SIZES.width - 44,

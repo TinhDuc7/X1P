@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
     headerTitle: {
         fontFamily: 'Poppins-SemiBold',
         fontSize: SIZES.xLarge -2,
-
+        color: COLORS.black
     },
 })
 

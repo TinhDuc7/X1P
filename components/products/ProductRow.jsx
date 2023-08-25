@@ -24,18 +24,9 @@ const ProductRow = () => {
                 data={data}
                 keyExtractor={(item) => item._id}
               renderItem={({ item }) => <ProductCardView item={item} />}
-                      horizontal contentContainerStyle={{ columnGap: SIZES.medium}}
+                      horizontal contentContainerStyle={{ gap: SIZES.xSmall - 2}}
                   />
 )}
-      {/* <Text>{data?.title}</Text>
-<FlatList
-                data={data}
-                keyExtractor={(item) => item._id}
-              renderItem={({ item }) => <ProductCardView item={item} />}
-                      horizontal contentContainerStyle={{ columnGap: SIZES.medium}}
-                  />
-
-                */}
     </View>
   );};
 export default ProductRow;

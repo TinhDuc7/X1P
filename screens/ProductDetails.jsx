@@ -29,7 +29,7 @@ const ProductDetails = ({ navigation }) => {
     <View style={styles.container}>
       <View style={styles.upperRow}>
         <TouchableOpacity onPress={() => navigation.goBack()}>
-          <Ionicons name="chevron-back-circle" size={40} />
+          <Ionicons name="chevron-back-circle" size={40} color={COLORS.secondary} />
         </TouchableOpacity>
 
         <TouchableOpacity onPress={() => {}}>
