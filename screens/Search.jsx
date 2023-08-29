@@ -14,9 +14,9 @@ const Search = () => {
   const [searchResults, setSearchResults] = useState([]);
 
 
-  console.log('====================================');
-  console.log(searchResults);
-  console.log('====================================');
+  // console.log('====================================');
+  // console.log(searchResults);
+  // console.log('====================================');
   const handleSearch = async() => {
     try {
       const response = await axios.get(`http://192.168.1.25:6060/api/products/search/${searchKey}`)

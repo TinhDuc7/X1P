@@ -11,7 +11,7 @@ import Fontisto from 'react-native-vector-icons/Fontisto';
 const ProductDetails = ({ navigation }) => {
   const route = useRoute();
   const { item } = route.params;
-  console.log(item);
+  // console.log(item);
 
   const [count, setCount] = useState(1);
 

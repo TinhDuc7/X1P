@@ -3,7 +3,7 @@ import ProductCardView from './products/ProductCardView';
 import ProductRow from './products/ProductRow';
 import AnimatedText from './products/AnimatedText';
 import ProductList from './products/ProductList';
-
+import BackBtn from "./BackBtn";
 
 
 export {
@@ -12,4 +12,5 @@ export {
     ProductRow,
     AnimatedText,
     ProductList,
+    BackBtn,
 }
